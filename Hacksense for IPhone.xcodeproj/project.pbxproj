@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* Hacksense_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Hacksense_AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		220043F6115AEC6D00E034E8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220043F5115AEC6D00E034E8 /* MapKit.framework */; };
+		221C078C11595C180057F387 /* open_landscape_big.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 221C078B11595C180057F387 /* open_landscape_big.jpg */; };
+		221C079011595C290057F387 /* open_portrait_big.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 221C078D11595C290057F387 /* open_portrait_big.jpg */; };
+		221C079111595C290057F387 /* close_landscape_big.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 221C078E11595C290057F387 /* close_landscape_big.jpg */; };
+		221C079211595C290057F387 /* close_portrait_big.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 221C078F11595C290057F387 /* close_portrait_big.jpg */; };
+		2268F9BD115A0AB700B9EBCC /* display363.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2268F9BC115A0AB700B9EBCC /* display363.gif */; };
+		2268F9D3115A0FB300B9EBCC /* thumbnail332.png.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2268F9D2115A0FB300B9EBCC /* thumbnail332.png.jpeg */; };
+		2268FB58115A56C700B9EBCC /* EEMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2268FB57115A56C700B9EBCC /* EEMLParser.m */; };
+		2268FC28115AB9E900B9EBCC /* outoforder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2268FC27115AB9E900B9EBCC /* outoforder.jpg */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* Hacksense_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* Hacksense_ViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* Hacksense_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* Hacksense_ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* Hacksense_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hacksense_AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* Hacksense_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hacksense_AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Hacksense for IPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hacksense for IPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		220043F5115AEC6D00E034E8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		221C078B11595C180057F387 /* open_landscape_big.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = open_landscape_big.jpg; sourceTree = "<group>"; };
+		221C078D11595C290057F387 /* open_portrait_big.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = open_portrait_big.jpg; sourceTree = "<group>"; };
+		221C078E11595C290057F387 /* close_landscape_big.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = close_landscape_big.jpg; sourceTree = "<group>"; };
+		221C078F11595C290057F387 /* close_portrait_big.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = close_portrait_big.jpg; sourceTree = "<group>"; };
+		2268F9BC115A0AB700B9EBCC /* display363.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = display363.gif; sourceTree = "<group>"; };
+		2268F9D2115A0FB300B9EBCC /* thumbnail332.png.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumbnail332.png.jpeg; sourceTree = "<group>"; };
+		2268FB56115A56C700B9EBCC /* EEMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEMLParser.h; sourceTree = "<group>"; };
+		2268FB57115A56C700B9EBCC /* EEMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEMLParser.m; sourceTree = "<group>"; };
+		2268FC27115AB9E900B9EBCC /* outoforder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = outoforder.jpg; sourceTree = "<group>"; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* Hacksense_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Hacksense_ViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* Hacksense_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hacksense_ViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* Hacksense_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hacksense_ViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Hacksense for IPhone_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Hacksense for IPhone_Prefix.pch"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Hacksense for IPhone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Hacksense for IPhone-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				220043F6115AEC6D00E034E8 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* Hacksense_AppDelegate.h */,
+				1D3623250D0F684500981E51 /* Hacksense_AppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* Hacksense_ViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* Hacksense_ViewController.m */,
+				2268FB56115A56C700B9EBCC /* EEMLParser.h */,
+				2268FB57115A56C700B9EBCC /* EEMLParser.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Hacksense for IPhone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Hacksense for IPhone_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2268FC27115AB9E900B9EBCC /* outoforder.jpg */,
+				2268F9D2115A0FB300B9EBCC /* thumbnail332.png.jpeg */,
+				2268F9BC115A0AB700B9EBCC /* display363.gif */,
+				221C078D11595C290057F387 /* open_portrait_big.jpg */,
+				221C078E11595C290057F387 /* close_landscape_big.jpg */,
+				221C078F11595C290057F387 /* close_portrait_big.jpg */,
+				221C078B11595C180057F387 /* open_landscape_big.jpg */,
+				2899E5210DE3E06400AC0155 /* Hacksense_ViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Hacksense for IPhone-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				220043F5115AEC6D00E034E8 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Hacksense for IPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Hacksense for IPhone" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hacksense for IPhone";
+			productName = Hacksense_v01;
+			productReference = 1D6058910D05DD3D006BFB54 /* Hacksense for IPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Tamás Com";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Hacksense for IPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Hacksense for IPhone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* Hacksense_ViewController.xib in Resources */,
+				221C078C11595C180057F387 /* open_landscape_big.jpg in Resources */,
+				221C079011595C290057F387 /* open_portrait_big.jpg in Resources */,
+				221C079111595C290057F387 /* close_landscape_big.jpg in Resources */,
+				221C079211595C290057F387 /* close_portrait_big.jpg in Resources */,
+				2268F9BD115A0AB700B9EBCC /* display363.gif in Resources */,
+				2268F9D3115A0FB300B9EBCC /* thumbnail332.png.jpeg in Resources */,
+				2268FC28115AB9E900B9EBCC /* outoforder.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* Hacksense_AppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* Hacksense_ViewController.m in Sources */,
+				2268FB58115A56C700B9EBCC /* EEMLParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hacksense for IPhone_Prefix.pch";
+				INFOPLIST_FILE = "Hacksense for IPhone-Info.plist";
+				PRODUCT_NAME = "Hacksense for IPhone";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hacksense for IPhone_Prefix.pch";
+				INFOPLIST_FILE = "Hacksense for IPhone-Info.plist";
+				PRODUCT_NAME = "Hacksense for IPhone";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tamas Marton (A85L5GH3MX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tamas Marton (A85L5GH3MX)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "CF57B758-8FB0-40A9-AB60-F39595D14134";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CF57B758-8FB0-40A9-AB60-F39595D14134";
+				SDKROOT = iphoneos3.1.3;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Hacksense for IPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Hacksense for IPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
