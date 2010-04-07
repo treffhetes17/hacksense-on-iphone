@@ -20,7 +20,7 @@
 	IBOutlet UILabel *nameLabel;
 	IBOutlet UIView *mapView;
 	IBOutlet UIActivityIndicatorView *indicatorView;
-	MKMapView *map;
+	IBOutlet MKMapView *map;
 	MKReverseGeocoder *geoCoder;
 	MKPlacemark *mPlacemark;
 	EEMLParser *parser;	

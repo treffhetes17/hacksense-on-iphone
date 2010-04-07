@@ -68,8 +68,8 @@
 	
 	MKCoordinateRegion region;
 	CLLocationCoordinate2D coordinate=map.userLocation.coordinate;
-	coordinate.latitude=47.501192;
-	coordinate.longitude=19.065088;
+	coordinate.latitude=47.500672;
+	coordinate.longitude=19.065093;
 	
 	// Set Map Viewport
 	region.center=coordinate;
